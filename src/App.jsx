@@ -46,7 +46,7 @@ function App() {
         updateFavoritePokemon : updateFavoritePokemon
       }}>
         <Navbar />
-        <div className="App">
+        <div className="App bg-gray-200">
           <SearchBar />
           <Pokedex 
             loading={loading}
